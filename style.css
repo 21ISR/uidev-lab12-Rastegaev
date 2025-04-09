@@ -1,0 +1,81 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins" ;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    width: max-content;
+    
+}
+#header{
+    background:linear-gradient(70deg,#667eea, #764ba2) ;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding: 2.4rem 7rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    gap:1.4rem;
+    justify-content: center;
+    align-items: center;
+}
+#header h1{
+    /* text-align: center; */
+    font-size: 2.6rem ;
+    font-weight: 600;
+}
+#header P{
+    /* text-align: center; */
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+div{
+    display: flex;
+    padding: 1rem 1rem;
+    flex-direction: column;
+}
+input{
+    border:solid 1px #c3cfe2;
+    outline-color:#0c387a;
+    padding: 1.3rem;
+    border-radius: 0.5rem;
+}
+input:focus{
+    outline:#0c387a;
+}
+#remem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+#chekcon{
+    display: flex;
+    flex-direction: row;
+}
+#remem a{
+    color:#667eea;
+    text-decoration: none;
+}
+button{
+    background:linear-gradient(70deg,#667eea, #764ba2) ;
+    border:none;
+    color:white;
+    border-radius: 0.5rem;
+    padding:2rem;
+}
+button
